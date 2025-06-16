@@ -1,8 +1,6 @@
-# Prueba Técnica - Desarrollador(a) Java Spring Boot (Telefónica)
+# Prueba Técnica - Desarrollador Java Spring Boot (Telefónica)
 
 Este proyecto implementa una API REST en Java con Spring Boot 3.5 y Java 21, cumpliendo los requisitos de la prueba técnica para autenticación contra la API externa DummyJSON y registro de accesos exitosos en PostgreSQL.
-
----
 
 ## Tecnologías utilizadas
 
@@ -14,17 +12,13 @@ Este proyecto implementa una API REST en Java con Spring Boot 3.5 y Java 21, cum
 - Lombok
 - JUnit 5
 
----
-
 ## Requisitos
 
 - PostgreSQL instalado y en ejecución
 - Crear una base de datos llamada `prueba_db`
 - Java 21+
 - Maven
-
----
-
+- 
 ## Configuración
 
 Edita el archivo `src/main/resources/application.properties`:
