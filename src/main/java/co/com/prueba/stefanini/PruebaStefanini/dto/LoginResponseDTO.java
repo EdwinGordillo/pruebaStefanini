@@ -1,6 +1,5 @@
 package co.com.prueba.stefanini.PruebaStefanini.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
 @Data
