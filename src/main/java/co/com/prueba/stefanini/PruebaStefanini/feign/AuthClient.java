@@ -1,8 +1,6 @@
 package co.com.prueba.stefanini.PruebaStefanini.feign;
 
-import co.com.prueba.stefanini.PruebaStefanini.dto.LoginRequestDTO;
-import co.com.prueba.stefanini.PruebaStefanini.dto.LoginResponseDTO;
-import co.com.prueba.stefanini.PruebaStefanini.dto.UserDTO;
+import co.com.prueba.stefanini.PruebaStefanini.dto.*;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,5 +11,8 @@ public interface AuthClient {
     LoginResponseDTO login(@RequestBody LoginRequestDTO request);
 
     @GetMapping("/auth/me")
-    UserDTO getCurrentUser(@RequestHeader("Cookie") String accessToken);
+    UserMeDTO getCurrentUser(@RequestHeader("Cookie") String accessToken);
+
+    @GetMapping("/users")
+    UsersWrapper getUsers(@RequestHeader("Cookie") String accessToken);
 }

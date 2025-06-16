@@ -5,13 +5,13 @@ import lombok.Data;
 
 @Data
 public class LoginResponseDTO {
+    private String accessToken;
+    private String refreshToken;
     private int id;
     private String username;
     private String email;
-
-    @JsonProperty("accessToken")
-    private String accessToken;
-
-    @JsonProperty("refreshToken")
-    private String refreshToken;
+    private String firstName;
+    private String lastName;
+    private String gender;
+    private String image;
 }
