@@ -51,7 +51,7 @@ Método: POST
 Headers: Content-Type: application/json
 Body (raw → JSON):
 json
-{
+```{
   "username": "emilys",
   "password": "emilyspass"
-}
+}```
