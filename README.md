@@ -43,6 +43,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 
 server.port=8080
+```
 
 ## Probar con Postman
 URL: http://localhost:8080/api/auth/login
