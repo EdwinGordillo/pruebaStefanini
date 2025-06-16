@@ -1,2 +1,0 @@
-# pruebaStefanini
-Prueba Stefanini
